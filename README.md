@@ -4,4 +4,4 @@
 
 ![Center-aligned image](https://github.com/Kromite/kromite.github.io/blob/master/CydiaIcon.png)
 
-![Center-aligned image](https://github.com/Kromite/kromite.github.io/blob/master/assets/retroarch-icon.png)
+![Center-aligned image](https://github.com/Kromite/kromite.github.io/blob/master/images/retroarch-icon.png)
