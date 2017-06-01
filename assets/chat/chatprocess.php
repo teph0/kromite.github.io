@@ -12,18 +12,18 @@ function sendMsg($msg) {
   flush();
 }
 if(!empty($name) && !empty($msg)){
-	$fp = fopen("_chat.txt", 'a');  
+	$fp = fopen("assets/chat/_chat.txt", 'a');  
     fwrite($fp, '<div class="chatmsg"><b>'.$name.'</b>: '.$msg.'<br/></div>'.PHP_EOL);  
     fclose($fp);  
 }
 
-  if(file_exists("_chat.txt") && filesize("_chat.txt") > 0){  
-   $arrhtml=array_reverse(file("_chat.txt"));
+  if(file_exists("assets/chat/_chat.txt") && filesize("assets/chat/_chat.txt") > 0){  
+   $arrhtml=array_reverse(file("assets/chat/_chat.txt"));
    $html=$arrhtml[0];
     
   }
-  if(filesize("_chat.txt") > 100){
-    unlink("_chat.txt");
+  if(filesize("assets/chat/_chat.txt") > 100){
+    unlink("assets/chat/_chat.txt");
   }
   
 
