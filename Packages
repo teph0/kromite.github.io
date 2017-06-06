@@ -1,34 +1,34 @@
 Package: com.kromite.gba4ios
 Version: 2.1-4b
 Architecture: iphoneos-arm
-Maintainer: Jake Lindsey <jlindsey_84@hotmail.com>
+Maintainer: Kromite <info@kromlte.com>
 Filename: ./debs//com.kromite.gba4ios_2.1-4b_iphoneos-arm.deb
-Size: 7718684
-MD5sum: 0a72cec847270df0dd7f49bb440e3da0
-SHA1: c44c81f21662186e826393da812223909638f285
-SHA256: be0c42f5e653d1195bebd545eaba916b5c1849d110d2b78052de19ebad281935
+Size: 7718680
+MD5sum: d1ad18ac150cd5782df1dc43693af8c0
+SHA1: 1aff430e64d9cb916234b3631bcc11d44bd8a479
+SHA256: f64c6baf6cd2e3c02c158b9694c09b1dd862407f61514a71573fb6e41aeb3955
 Section: Emulators
-Homepage: kromite.github.io
+Homepage: www.kromlte.com
 Description: An amazing GBA emulator for iOS.
 Author: Riley Testut <riley@rileytestut.com>
 Name: GBA4iOS
-Sponsor: GitHub
+Sponsor: BuildStore
 
 Package: com.kromite.retroarch10
 Version: 1.3.6
 Architecture: iphoneos-arm
-Maintainer: Jake Lindsey <jlindsey_84@hotmail.com>
+Maintainer: Kromite <info@kromlte.com>
 Depends: firmware (>= 8.3)
 Filename: ./debs//com.kromite.retroarch10_1.3.6_iphoneos-arm.deb
-Size: 84464370
-MD5sum: 907ad7a82634d46779f05edf1123a2b1
-SHA1: 0f75572466d7288b32a064e655fbcb817f530760
-SHA256: 9c71ca48076f8673f87ff9d52954070f1a0ec57423502718fae7a5a84853ed69
+Size: 84464356
+MD5sum: 154c5fb98b129ec4b1c7a1cc2120cd3b
+SHA1: 775f26c6d157d1a65d161963b49a9e3ea69657be
+SHA256: dc0fe111dca69026fcf27d901309fdd098d21e7ddc6b7b7dc436def214d8a36d
 Section: Emulators
-Homepage: kromite.github.io
-Description: RetroArch10 is the official reference frontend for the libretro API. Beta version, thanks to Kromite.
-Author: Libretro <libretro@gmail.com>
+Homepage: www.kromlte.com
+Description: RetroArch10 is the official reference frontend for the Libretro API. Beta version, thanks to Kromite.
+Author: LibRetro <libretro@gmail.com>
 Icon: http://buildbot.libretro.com/repo/cydia/retroarch-icon.png
 Name: RetroArch10
-Sponsor: GitHub
+Sponsor: LibRetro
 
