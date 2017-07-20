@@ -1,3 +1,42 @@
+h1.header {
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	color: #000000;
+}
+
+footer.center {
+	text-align: center;
+	vertical-align: middle;
+}
+
+a:link    {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #f0f;
+}
+
+a:hover   {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:active  {
+	text-decoration: none;
+	color: red;
+}
+
+#wrapper {
+	vertical-align: middle;
+}
+
 #header.alt .logo {
 	-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 	-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
@@ -22,52 +61,4 @@ body.is-loading #header.alt .logo {
 	-webkit-transform: scale(0.8) rotate(-30deg);
 	-ms-transform: scale(0.8) rotate(-30deg);
 	transform: scale(0.8) rotate(-30deg);
-}
-
-h1.header {
-	text-align: center;
-	text-decoration: none;
-	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
-	vertical-align: middle;
-	color: #000000;
-}
-
-footer.center {
-	text-align: center;
-	vertical-align: middle;
-}
-
-a:link    {
-	text-decoration:  none;
-	font-weight:      bold;
-	background-color: #ddd;
-	color:            blue;
-}
-
-a:visited {
-	text-decoration:  none;
-	font-weight:      bold;
-	background-color: #ddd;
-	color:            #f0f;
-}
-
-a:hover   {
-	text-decoration:  none;
-	font-weight:      bold;
-	background-color: blue;
-	color:            #fff;
-}
-
-a:active  {
-	text-decoration:  none;
-	font-weight:      bold;
-	background-color: black;
-	color: white;
-}
-
-#wrapper {
-	text-align: center;
-	vertical-align: middle;
 }
