@@ -33,20 +33,24 @@ a:active  {
 	color: red;
 }
 
-#bodyDiv {
+body {
+	background-image: url("images/background.jpg");
 	vertical-align: middle;
+	margin: 0;
+    padding: 0;
 }
 
 .navBar {
     background-color: #333;
     overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .navBar a {
     float: left;
-    display: inline-block;
+	text-align: center;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -60,4 +64,22 @@ a:active  {
 .navBar a.active {
     background-color: #FF0000;
     color: white;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {
+	background-color: #f2f2f2
 }
