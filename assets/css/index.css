@@ -34,6 +34,11 @@ h1.header {
 	color: #000000;
 }
 
+footer.center {
+	text-align: center;
+	vertical-align: middle;
+}
+
 a:link    {
 	text-decoration:  none;
 	font-weight:      bold;
