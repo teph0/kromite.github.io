@@ -67,3 +67,7 @@ a:active  {
 	color: white;
 }
 
+#wrapper {
+	text-align: center;
+	vertical-align: middle;
+}
