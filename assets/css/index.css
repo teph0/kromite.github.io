@@ -6,6 +6,7 @@ h1.header {
 	margin-right: auto;
 	vertical-align: middle;
 	color: #000000;
+	font-size: 34px;
 }
 
 .center {
@@ -13,35 +14,25 @@ h1.header {
 	vertical-align: middle;
 }
 
-a:link    {
+a:visited, a:link {
 	text-decoration: none;
 	color: black;
 }
 
-/*a:visited {
-	text-decoration: none;
-	color: #f0f;
-}*/
-
 a:hover   {
 	text-decoration: none;
-	color: blue;
-}
-
-a:active  {
-	text-decoration: none;
-	color: red;
+	color: white;
 }
 
 body {
-	background-image: url("images/background.jpg");
+	background-image: url("https://www.clipartsgram.com/image/1495331224-best-blurred-background-wallpaper1.jpg");
 	vertical-align: middle;
 	margin: 0;
     padding: 0;
 }
 
 .navBar {
-    background-color: #333;
+    background-color: #8E6D5E;
     overflow: hidden;
 	display: inline-block;
 	vertical-align: middle;
@@ -50,19 +41,19 @@ body {
 .navBar a {
     float: left;
 	text-align: center;
-    color: #f2f2f2;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
 .navBar a:hover {
-    background-color: #ddd;
+    background-color: #FFFFFF;
     color: black;
 }
 
 .navBar a.active {
-    background-color: #FF0000;
+    background-color: #000000;
     color: white;
 }
 
@@ -72,14 +63,29 @@ body {
   font-size: 24px;
   cursor: pointer;
   text-align: center;
+  vertical-align: middle;
   text-decoration: none;
   outline: none;
-  color: #fff;
-  background-color: #4CAF50;
+  background-color: #000000;
   border: none;
   border-radius: 15px;
 }
 
 .button:hover {
-	background-color: #f2f2f2
+	background-color: #ddd;
+	color: black;
+}
+
+.breaker { 
+	clear: both;
+	padding-top: 15px;
+}
+
+img.circle {
+	border-radius: 50%;
+	border: 5px solid #000000;
+	overflow: hidden;
+	position: relative;
+	width: 125px;
+	height: 125px;
 }
