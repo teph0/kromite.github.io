@@ -8,7 +8,7 @@ h1.header {
 	color: #000000;
 }
 
-footer.center {
+.center {
 	text-align: center;
 	vertical-align: middle;
 }
@@ -43,7 +43,7 @@ a:active  {
 }
 
 .navBar a {
-    float: left;
+    
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -58,6 +58,6 @@ a:active  {
 }
 
 .navBar a.active {
-    background-color: #4CAF50;
+    background-color: red;
     color: white;
 }
