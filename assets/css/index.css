@@ -58,6 +58,6 @@ a:active  {
 }
 
 .navBar a.active {
-    background-color: red;
+    background-color: #FF0000;
     color: white;
 }
