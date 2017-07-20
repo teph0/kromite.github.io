@@ -18,14 +18,14 @@ a:link    {
 	color: black;
 }
 
-a:visited {
+/*a:visited {
 	text-decoration: none;
 	color: #f0f;
-}
+}*/
 
 a:hover   {
 	text-decoration: none;
-	color: #fff;
+	color: blue;
 }
 
 a:active  {
@@ -35,30 +35,4 @@ a:active  {
 
 #wrapper {
 	vertical-align: middle;
-}
-
-#header.alt .logo {
-	-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-	-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-	-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-	transition: opacity 1.25s ease, transform 0.5s ease;
-	-moz-transition-delay: 0s;
-	-webkit-transition-delay: 0s;
-	-ms-transition-delay: 0s;
-	transition-delay: 0s;
-	display: block;
-	margin: 0 0 1.5em 0;
-}
-
-#header.alt .logo img {
-	display: block;
-	margin: 0 auto;
-	max-width: 75%;
-}
-
-body.is-loading #header.alt .logo {
-	-moz-transform: scale(0.8) rotate(-30deg);
-	-webkit-transform: scale(0.8) rotate(-30deg);
-	-ms-transform: scale(0.8) rotate(-30deg);
-	transform: scale(0.8) rotate(-30deg);
 }
