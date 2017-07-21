@@ -36,31 +36,52 @@ body {
     padding: 0;
 }
 
-.navBar {
-    background-color: #8E6D5E;
-    overflow: hidden;
-	display: inline-block;
-	vertical-align: middle;
+.nav ul {
+  list-style: none;
+  background-color: #8E6D5E;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
-.navBar a {
-    float: left;
-	text-align: center;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-	margin: 0 auto;
+.nav li {
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
 }
-
-.navBar a:hover {
-    background-color: #FFFFFF;
-    color: black;
+ 
+.nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: .3s background-color;
 }
-
-.navBar a.active {
-    background-color: #000000;
-    color: white;
+ 
+.nav a:hover {
+  background-color: #000000;
+  color: #fff;
+}
+ 
+.nav a.active {
+  background-color: #FFFFFF;
+  color: #fff;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+	.nav li {
+		width: 120px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+	}
+	 
+	.nav li {
+		display: inline-block;
+		margin-right: -4px;
+	}
 }
 
 .button {
