@@ -83,6 +83,17 @@ body {
 	color: black;
 }
 
+a.button {
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+
+.button a:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
 .button:hover {
 	color: white;
 }
