@@ -40,19 +40,19 @@ body {
   height: 40px;
   border-bottom: 1px solid #888;
 }
- 
+
 .nav a {
   text-decoration: none;
   color: black;
   display: block;
   transition: .3s background-color;
 }
- 
+
 .nav a:hover {
   background-color: #000000;
   color: #fff;
 }
- 
+
 @media screen and (min-width: 600px) {
 	.nav li {
 		width: 120px;
@@ -61,7 +61,7 @@ body {
 		line-height: 50px;
 		font-size: 1.4em;
 	}
-	 
+
 	.nav li {
 		display: inline-block;
 		margin-right: -4px;
@@ -84,15 +84,15 @@ body {
 }
 
 .button:hover {
-	color: red;
+	color: white;
 }
 
-.breaker { 
+.breaker {
 	clear: both;
 	padding-top: 15px;
 }
 
-.buttonBreaker { 
+.buttonBreaker {
 	clear: both;
 	padding-top: 30px;
 }
