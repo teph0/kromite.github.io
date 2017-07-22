@@ -99,10 +99,6 @@ a.button {
   color: #fff;
 }
 
-.button:hover {
-	color: white;
-}
-
 .breaker {
 	clear: both;
 	padding-top: 15px;
