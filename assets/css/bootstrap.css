@@ -1,3 +1,4 @@
+/* Headers */
 h1.header {
 	text-align: center;
 	text-decoration: none;
@@ -8,28 +9,32 @@ h1.header {
 	color: #000000;
 	font-size: 34px;
 }
+h3.muted {
+	color: #777;
+}
 
-#footer {
+/* Footer */
+footer.footer {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-decoration: none;
 }
-
-#footer a:hover {
+footer.footer a:hover {
+	color: black;
+	text-decoration: none;
+}
+footer.footer a:visited {
 	color: black;
 	text-decoration: none;
 }
 
-#footer a:visited {
-	color: black;
-	text-decoration: none;
-}
-
+/* Html */
 html {
 	text-align: center;
 	vertical-align: middle;
 }
 
+/* Code */
 code {
 	text-align: center;
 	vertical-align: middle;
@@ -37,13 +42,14 @@ code {
 	color: black;
 }
 
+/* Body */
 body {
-	background-image: url("https://www.clipartsgram.com/image/1495331224-best-blurred-background-wallpaper1.jpg");
-	vertical-align: middle;
+	background-image: url("https://www.kromlte.com/images/backgrounds/background.jpg");
 	margin: 0;
 	padding: 0;
 }
 
+/* Navbar */
 .nav ul {
 	list-style: none;
 	background-color: #8E6D5E;
@@ -51,26 +57,22 @@ body {
 	padding: 0;
 	margin: 0;
 }
-
 .nav li {
 	font-size: 1.2em;
 	line-height: 40px;
 	height: 40px;
 	border-bottom: 1px solid #888;
 }
-
 .nav a {
 	text-decoration: none;
 	color: black;
 	display: block;
 	transition: .3s background-color;
 }
-
 .nav a:hover {
 	background-color: #000000;
 	color: #fff;
 }
-
 @media screen and (min-width: 600px) {
 	.nav li {
 		width: 120px;
@@ -86,6 +88,7 @@ body {
 	}
 }
 
+/* Buttons */
 .button {
 	display: inline-block;
 	padding: 15px 25px;
@@ -100,14 +103,12 @@ body {
 	border-radius: 15px;
 	color: black;
 }
-
 .button a {
 	background-color: #8E6D5E;
 	text-decoration: none;
 	outline: none;
 	color: black;
 }
-
 .button a:hover {
 	background-color: #000000;
 	text-decoration: none;
@@ -115,16 +116,17 @@ body {
 	color: white;
 }
 
-.breaker {
+/* Breakers */
+div.breaker {
 	clear: both;
 	padding-top: 15px;
 }
-
-.buttonBreaker {
+div.buttonBreaker {
 	clear: both;
 	padding-top: 30px;
 }
 
+/* Images */
 img.circle {
 	border-radius: 50%;
 	border: 4px solid #000000;
