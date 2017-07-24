@@ -101,10 +101,18 @@ body {
 	color: black;
 }
 
-a.button {
+.button a {
+	background-color: #8E6D5E;
 	text-decoration: none;
 	outline: none;
 	color: black;
+}
+
+.button a:hover {
+	background-color: #000000;
+	text-decoration: none;
+	outline: none;
+	color: white;
 }
 
 .breaker {
