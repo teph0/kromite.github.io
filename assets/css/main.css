@@ -30,6 +30,13 @@ html {
 	vertical-align: middle;
 }
 
+code {
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	color: black;
+}
+
 body {
 	background-image: url("https://www.clipartsgram.com/image/1495331224-best-blurred-background-wallpaper1.jpg");
 	vertical-align: middle;
