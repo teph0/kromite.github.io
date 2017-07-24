@@ -12,6 +12,7 @@ h1.header {
 #footer {
 	padding-top: 15px;
 	padding-bottom: 15px;
+	text-decoration: none;
 }
 
 #footer a:hover {
