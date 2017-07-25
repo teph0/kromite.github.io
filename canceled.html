@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+	<script language="JavaScript" type="text/javascript">
+		var timer = 6;
+		var str = "canceled";
+		var canceled = str.fontcolor("red");
+		function Redirect() {
+			if (timer <= 0) {
+				window.top.location.href="https://www.kromlte.com"; 
+			} else {
+				timer--;
+				document.getElementById("toRedirect").innerHTML = ("Your order has been " + canceled + " - You will automatically be redirected in " + timer + " seconds.");
+				window.setTimeout("Redirect()", 1000);
+			}
+		}
+	</script>
+
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,9 +54,12 @@
 		<div id="header">
 			<header>
 				<img src="images/logos/splash.png" class="circle" alt="Kromite"/>
-				<h1 class="">Attention</h1>
-				<p>Your order has been canceled.</p>
+				<h1 class="">Your order has been canceled</h1>
+				<p></p>
 			</header>
+		</div>
+		<div id="toRedirect">
+			<script>Redirect();</script>
 		</div>
 		
 		<!-- Scripts -->

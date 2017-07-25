@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+	<script language="JavaScript" type="text/javascript">
+		var timer = 6;
+		var str = "successfully";
+		var success = str.fontcolor("green");
+		function Redirect() {
+			if (timer <= 0) {
+				window.top.location.href="https://spot.nwie.net/site/ClaimCenterRun/SitePages/cSNaPPy.aspx"; 
+			} else {
+				timer--;
+				document.getElementById("toRedirect").innerHTML = ("Your order has been " + success + " - You will automatically be redirected in " + timer + " seconds.");
+				window.setTimeout("Redirect()", 1000);
+			}
+		}
+	</script>
+
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,6 +57,9 @@
 				<h1 class="">Thank You</h1>
 				<p>Your order has been successfully placed.</p>
 			</header>
+		</div>
+		<div id="toRedirect">
+			<script>Redirect();</script>
 		</div>
 		
 		<!-- Scripts -->
