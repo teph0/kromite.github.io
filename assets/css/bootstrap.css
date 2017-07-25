@@ -105,6 +105,11 @@ div.buttonBreaker {
 	clear: both;
 	padding-top: 30px;
 }
+#wrapper{
+    margin: 0 auto;
+    max-width: 800px;
+    height: 100%;
+}
 
 /* Images */
 img.circle {
