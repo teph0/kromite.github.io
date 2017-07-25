@@ -5,7 +5,6 @@ h1.header {
 	margin: 0;
 	text-align: center;
 	vertical-align: middle;
-	text-decoration: none;
 }
 
 /* Footer */
@@ -17,7 +16,6 @@ footer.footer {
 }
 footer a {
 	color: black;
-	text-decoration: none;
 }
 
 /* Html */
@@ -69,25 +67,33 @@ body {
 	}
 }
 
+/* Links */
+a {
+	text-decoration: none;
+}
+
 /* Buttons */
 .button {
-	display: inline-block;
-	padding: 15px 25px;
-	font-size: 17px;
-	cursor: pointer;
-	text-align: center;
-	vertical-align: middle;
-	border: none;
-	border-radius: 15px;
-	background-color: #8E6D5E;
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	-webkit-box-shadow: 0px 1px 3px #666666;
+	-moz-box-shadow: 0px 1px 3px #666666;
+	box-shadow: 0px 1px 3px #666666;
+	font-family: Arial;
+	color: #000000;
+	font-size: 20px;
+	background: #8E6D5E;
+	padding: 10px 20px 10px 20px;
+	border: solid #000000 2px;
 }
 .button a {
-	text-decoration: none;
 	color: black;
 }
-.button a:hover {
-	background-color: #000000;
-	color: #fff;
+.button:hover {
+	background: #000000;
+	border: solid #FFFFFF 2px;
+	color: white;
 }
 
 /* Breakers */
