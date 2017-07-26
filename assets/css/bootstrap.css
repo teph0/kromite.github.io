@@ -97,10 +97,8 @@ body {
 
 /* Tables */
 table, td, th {
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
-    border-radius: 30px;
     text-align: center;
+	border-radius: 30px;
 }
 table {
     border-collapse: collapse;
