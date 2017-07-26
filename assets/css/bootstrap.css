@@ -98,7 +98,7 @@ body {
 /* Tables */
 table, td, th {
     text-align: center;
-	border: 2px solid black;
+	border: 2px solid #000000;
 }
 table {
     border-collapse: collapse;
