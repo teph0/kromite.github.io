@@ -56,6 +56,9 @@ body {
 	text-align: center;
 	padding: 0;
 	margin: 0;
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
 }
 .navbar a {
 	text-decoration: none;
@@ -73,6 +76,9 @@ body {
 .navbar a.active {
 	background-color: #000000;
 	color: #fff;
+	-webkit-box-shadow: 0px 1px 3px #666666;
+	-moz-box-shadow: 0px 1px 3px #666666;
+	box-shadow: 0px 1px 3px #666666;
 }
 @media screen and (min-width: 600px) {
 	.navbar li {
@@ -91,7 +97,9 @@ body {
 
 /* Tables */
 table, td, th {
-    border: 2px solid #000000;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
     text-align: center;
 }
 table {
