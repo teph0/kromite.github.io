@@ -46,6 +46,9 @@ body {
 	-webkit-box-shadow: 0px 1px 3px #666666;
 	-moz-box-shadow: 0px 1px 3px #666666;
 	box-shadow: 0px 1px 3px #666666;
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
 }
 .navbar ul {
 	list-style: none;
@@ -53,9 +56,6 @@ body {
 	text-align: center;
 	padding: 0;
 	margin: 0;
-	-moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
-    border-radius: 30px;
 }
 .navbar a {
 	text-decoration: none;
