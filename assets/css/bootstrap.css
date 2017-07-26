@@ -1,3 +1,5 @@
+/* All Code Written by: Kromite */
+
 /* Headers */
 h1.header {
 	color: black;
@@ -56,6 +58,14 @@ body {
 .navbar a.active {
 	background-color: #000000;
 	color: #fff;
+}
+.navbar:first-child {
+	border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+}
+.navbar:last-child {
+	border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
 }
 @media screen and (min-width: 600px) {
 	.navbar li {
