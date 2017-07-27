@@ -26,3 +26,7 @@ $(function () {
 		}
 	});
 });
+
+var github = window.top.href="";
+var youtube = window.top.href="";
+var ttg = window.top.href="";
