@@ -14,7 +14,6 @@ footer.footer {
 	outline: none;
 	border: none;
 	padding-top: 15px;
-	padding-bottom: 15px;
 }
 footer a {
 	color: black;
@@ -39,6 +38,7 @@ body {
 }
 .middle {
 	vertical-align: middle;
+	text-align: center;
 }
 
 /* Navbar */
@@ -112,8 +112,9 @@ td a {
 }
 
 /* Texts */
-a {
+a, li {
 	text-decoration: none;
+	list-style: none;
 }
 .bold {
 	text-decoration: bold;
