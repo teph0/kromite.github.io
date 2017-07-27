@@ -1,6 +1,7 @@
 $(function () {
 	$("#cpanel").dblclick(function() {
 		var pwd = prompt("Password: ");
+		pwd.type = "password";
 		if (pwd == null || pwd == "") {
 			alert("Error - Nothing was entered.");
 		} else if (pwd == "alpine") {
