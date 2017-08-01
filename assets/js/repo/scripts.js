@@ -32,6 +32,11 @@ function save() {
 	localStorage.setItem("text", cpuKey);
 }
 
+function retrieve(){
+	var text = localStorage.getItem("text");
+	document.getElementById('textDiv').innerHTML = text;
+}
+
 var github = window.top.href="";
 var youtube = window.top.href="";
 var ttg = window.top.href="";
