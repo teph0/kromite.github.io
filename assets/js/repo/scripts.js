@@ -27,6 +27,11 @@ setInterval(function() {
 	elementWithHiddenContent.innerHTML = currentInnerHtml;
 }, 1000);
 
+function save() {
+	var cpuKey = document.getElementById('cpu').value;
+	localStorage.setItem("text", cpuKey);
+}
+
 var github = window.top.href="";
 var youtube = window.top.href="";
 var ttg = window.top.href="";
