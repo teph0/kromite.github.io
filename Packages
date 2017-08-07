@@ -1,34 +1,36 @@
-Package: com.kromite.gba4ios
-Version: 2.1-4b
-Architecture: iphoneos-arm
-Maintainer: Kromite <info@kromlte.com>
-Filename: ./debs//com.kromite.gba4ios_2.1-4b_iphoneos-arm.deb
-Size: 7718680
-MD5sum: d1ad18ac150cd5782df1dc43693af8c0
-SHA1: 1aff430e64d9cb916234b3631bcc11d44bd8a479
-SHA256: f64c6baf6cd2e3c02c158b9694c09b1dd862407f61514a71573fb6e41aeb3955
-Section: Emulators
-Homepage: www.kromlte.com
-Description: An amazing GBA emulator for iOS.
-Author: Riley Testut <riley@rileytestut.com>
-Name: GBA4iOS
-Sponsor: BuildStore
-
 Package: com.kromite.retroarch10
 Version: 1.3.6
 Architecture: iphoneos-arm
 Maintainer: Kromite <info@kromlte.com>
 Depends: firmware (>= 8.3)
 Filename: ./debs//com.kromite.retroarch10_1.3.6_iphoneos-arm.deb
-Size: 84464356
-MD5sum: 154c5fb98b129ec4b1c7a1cc2120cd3b
-SHA1: 775f26c6d157d1a65d161963b49a9e3ea69657be
-SHA256: dc0fe111dca69026fcf27d901309fdd098d21e7ddc6b7b7dc436def214d8a36d
+Size: 84464344
+MD5sum: 7bec70695d9d2f797fd4e19919ac2acc
+SHA1: b1727dcd780a43750b302074b8b1a776f178fc11
+SHA256: 76cc49f7523915d4cc40c0466858c64a5c02db13a32616cc7728c392cabe400c
 Section: Emulators
 Homepage: www.kromlte.com
 Description: RetroArch10 is the official reference frontend for the Libretro API. Beta version, thanks to Kromite.
 Author: LibRetro <libretro@gmail.com>
 Icon: http://buildbot.libretro.com/repo/cydia/retroarch-icon.png
 Name: RetroArch10
+Sponsor: LibRetro
+
+Package: com.kromite.retroarch11
+Version: 1.6.0
+Architecture: iphoneos-arm
+Maintainer: Kromite <info@kromlte.com>
+Depends: firmware (>= 8.3)
+Filename: ./debs//com.kromite.retroarch11_1.6.0_iphoneos-arm.deb
+Size: 167170406
+MD5sum: 975d87f56dda2813d3f82711c32e1e76
+SHA1: d7036fbb481731845491c484b529c4fefb72cd99
+SHA256: 049fe79fd97c1cef0b8f2fee155de2af807b71aa1f6ea53168190f6f18783a9d
+Section: Emulators
+Homepage: www.kromlte.com
+Description: RetroArch11 is the official reference frontend for the Libretro API.
+Author: LibRetro <libretro@gmail.com>
+Icon: http://buildbot.libretro.com/repo/cydia/retroarch-icon.png
+Name: RetroArch11
 Sponsor: LibRetro
 
