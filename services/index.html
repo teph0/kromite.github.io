@@ -30,16 +30,16 @@
 		<meta name="msapplication-square150x150logo" content="mstile-150x150.png"/>
 		<meta name="msapplication-wide310x150logo" content="mstile-310x150.png"/>
 		<meta name="msapplication-square310x310logo" content="mstile-310x310.png"/>
-		
-		<title>XBLKrome - Kromite's Repository</title>
+
+		<title>Services - Kromite's Repository</title>
 	</head>
 
 	<body>
 		<div class="breaker"></div>
 		<div id="header">
 			<header>
-				<img id="cpanel" src="images/logos/splash.png" class="circle" alt="Kromite"/>
-				<h1>XBLKrome</h1>
+				<img src="https://www.kromlte.com/images/logos/splash.png" class="circle" alt="Kromite"/>
+				<h1>Services</h1>
 			</header>
 		</div>
 		<div class="breaker"></div>
@@ -47,33 +47,67 @@
 			<nav>
 				<ul>
 					<li><a href="https://www.kromlte.com">Home</a></li>
-					<li><a href="https://www.kromlte.com/repository.html">Repository</a></li>
-					<li><a href="https://www.kromlte.com/services.html">Services</a></li>
-					<li><a href="https://www.kromlte.com/downloads.html">Downloads</a></li>
-					<li><a class="active" href="https://www.kromlte.com/server.html">XBLKrome</a></li>
+					<li><a href="https://www.kromlte.com/repo">Repository</a></li>
+					<li><a href="https://www.kromlte.com/server/index.php">XBLKrome</a></li>
+					<li><a href="https://www.kromlte.com/downloads">Downloads</a></li>
+					<li><a class="active" href="https://www.kromlte.com/services">Services</a></li>
 				</ul>
 			</nav>
 		</div>
 		<div class="buttonBreaker"></div>
-		<div>
-			<h1 class="header">RGH/Jtag Server Beta</h1>
-			<p>This service is currently in beta, updates coming!</p>
-		</div>
-		<div class="breaker"></div>
 		<div id="wrapper">
-			<table>
-				<tr>
-					<td>
-						<textarea id="cpu" required="true" placeholder="CPU Key" rows="1" cols="32"></textarea>
-					</td>
-				</tr>
-			</table>
+			<section id="paid">
+				<header>
+					<h1 class="header">Paid Services</h1>
+				</header>
+				<div class="breaker"></div>
+				<table>
+					<tr>
+						<td>
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+								<input type="hidden" name="cmd" value="_s-xclick">
+								<input type="hidden" name="hosted_button_id" value="3HSGM5MVJLEBL">
+								<table>
+									<input type="hidden" name="on0" value="Call of Duty Packages">Call of Duty Packages<br>
+									<select name="os0">
+										<option value="Modern Warfare Lobby">Modern Warfare Lobby $2.00 USD</option>
+										<option value="World at War Lobby">World at War Lobby $2.00 USD</option>
+										<option value="Modern Warfare 2 Lobby">Modern Warfare 2 Lobby $3.00 USD</option>
+										<option value="Modern Warfare 3 Lobby">Modern Warfare 3 Lobby $5.00 USD</option>
+										<option value="Black Ops I Lobby">Black Ops I Lobby $5.00 USD</option>
+										<option value="Black Ops II Lobby">Black Ops II Lobby $5.00 USD</option>
+										<option value="Black Ops III Lobby">Black Ops III Lobby $7.00 USD</option>
+									</select><br>
+									<input type="hidden" name="on1" value="Gamertag:">Gamertag:<br><input type="text" name="os1" maxlength="200">
+								</table>
+								<br><input type="hidden" name="currency_code" value="USD">
+								<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+								<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+							</form>
+						</td>
+					</tr>
+				</table>
+			</section>
+			<div class="buttonBreaker"></div>
+			<div class="breaker"></div>
+			<section id="free">
+				<header>
+					<h1 class="header">Free Services</h1>
+				</header>
+				<div class="breaker"></div>
+				<table>
+					<tr>
+						<td>
+							<p>More Coming Soon!</p>
+						</td>
+					</tr>
+				</table>
+			</section>
 		</div>
-		
+
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
-		<script src="https://www.kromlte.com/assets/js/repo/scripts.js"></script>
 	</body>
 
 	<footer class="footer">
