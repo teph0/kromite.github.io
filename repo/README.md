@@ -1,3 +1,3 @@
-# Welcome to Kromite's Cydia Repository
+# Kromite's Cydia Repository
 
-![Center-aligned image](https://github.com/Kromite/kromite.github.io/blob/master/repo/CydiaIcon.png) ![Center-aligned image](https://github.com/Kromite/kromite.github.io/blob/master/images/retroarch-icon.png)
+ ![Center-aligned image](https://github.com/Kromite/kromite.github.io/blob/master/images/retroarch-icon.png)
