@@ -168,3 +168,8 @@ img.circle {
 	width: 125px;
 	height: 125px;
 }
+
+img.welcome {
+	width: 300;
+	height: 100;
+}
