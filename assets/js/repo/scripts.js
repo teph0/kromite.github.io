@@ -4,7 +4,7 @@ $(function () {
 		if (pwd == null || pwd == "") {
 			alert("Error - Nothing was entered.");
 		} else if (pwd == "alpine") {
-			window.location.href="https://www.dropbox.com/s/kwk229lkr9horf0/cpanel.html?dl=0";
+			window.location.href=""; //Add control panel here
 		} else {
 			alert("Error - Wrong password.");
 		}
