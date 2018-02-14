@@ -100,7 +100,7 @@ form, table, td, th {
   text-align: center;
 	border: 2px solid #000000;
 }
-table {
+form, table {
     border-collapse: collapse;
     width: 100%;
 }
