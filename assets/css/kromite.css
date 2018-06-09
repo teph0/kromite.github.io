@@ -19,12 +19,6 @@ footer a {
 	color: black;
 }
 
-/* Html */
-html {
-	text-align: center;
-	vertical-align: middle;
-}
-
 /* Body */
 body {
 	background-image: url("https://www.kromlte.com/images/backgrounds/background.jpg");
@@ -64,30 +58,6 @@ a, li {
 }
 .bold {
 	text-decoration: bold;
-}
-
-/* Buttons */
-.button {
-	-webkit-border-radius: 28;
-	-moz-border-radius: 28;
-	border-radius: 28px;
-	-webkit-box-shadow: 0px 1px 3px #666666;
-	-moz-box-shadow: 0px 1px 3px #666666;
-	box-shadow: 0px 1px 3px #666666;
-	font-family: Arial;
-	color: #000000;
-	font-size: 20px;
-	background: #8E6D5E;
-	padding: 10px 20px 10px 20px;
-	border: solid #000000 2px;
-}
-.button a {
-	color: black;
-}
-.button:hover {
-	background: #000000;
-	border: solid #FFFFFF 2px;
-	color: white;
 }
 
 /* Breakers */
