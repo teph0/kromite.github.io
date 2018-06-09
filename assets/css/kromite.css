@@ -35,31 +35,6 @@ body {
 	text-align: center;
 }
 
-/* Tables */
-form, table, td, th {
-  text-align: center;
-	border: 2px solid #000000;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-th, td {
-    padding: 15px;
-}
-td a {
-	color: blue;
-}
-
-/* Texts */
-a, li {
-	text-decoration: none;
-	list-style: none;
-}
-.bold {
-	text-decoration: bold;
-}
-
 /* Breakers */
 div.breaker {
 	clear: both;
