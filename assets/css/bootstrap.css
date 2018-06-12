@@ -6,17 +6,13 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /* Begin Kromite's Code */
-h1.header {
-	text-align: center;
-	vertical-align: middle;
-}
 /* Footer */
 .footer {
 	padding-top: 15px;
 	text-align: center;
 	vertical-align: middle;
 }
-footer a {
+footer a p {
 	color: black;
 	text-align: center;
 	vertical-align: middle;
