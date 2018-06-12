@@ -11,6 +11,8 @@ footer.footer {
 	outline: none;
 	border: none;
 	padding-top: 15px;
+	text-align: center;
+	vertical-align: middle;
 }
 footer a {
 	color: black;
