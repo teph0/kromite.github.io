@@ -2,11 +2,11 @@ Package: com.kromite.gba4ios
 Version: 2.1-4b
 Architecture: iphoneos-arm
 Maintainer: Kromite <info@kromlte.com>
-Filename: ./debs//com.kromite.gba4ios_2.1-4b_iphoneos-arm.deb
-Size: 7718710
-MD5sum: 1e00d2b238200bc3ebbf083feefe7e6a
-SHA1: c8e9dadd76e79fda9897ae5bb2355c3249fc2dff
-SHA256: a9522bbe7955408b79df369ec6dea311d1aa70324b40a65aaae9a7c6ee5a2ed6
+Filename: ./debs/com.kromite.gba4ios_2.1-4b_iphoneos-arm.deb
+Size: 7708854
+MD5sum: 3cc4d96d39fe7adbcede4843266a0175
+SHA1: 904b4e047f9f060e8b3e1375e066d16cafd73900
+SHA256: 275374c1876ae1b1cdb0066731bf88d41979c9db606c6f793dc35c679a9305e2
 Section: Emulators
 Homepage: www.kromlte.com
 Description: An amazing GBA emulator for iOS.
@@ -14,52 +14,16 @@ Author: Riley Testut <riley@rileytestut.com>
 Name: GBA4iOS
 Sponsor: BuildStore
 
-Package: com.kromite.retroarch102
-Version: 1.0.0.2
-Architecture: iphoneos-arm
-Maintainer: Kromite <info@kromlte.com>
-Depends: firmware (>= 7.0)
-Filename: ./debs//com.kromite.retroarch102_1.0.0.2_iphoneos-arm.deb
-Size: 13166084
-MD5sum: 83358f0fcd864e8ea0236a47ac6ce545
-SHA1: d411e2f33b29da24a4b63e825f56f2b456f155e3
-SHA256: dbfd7665b3404b82f02fa2cdb2698dc627ef3b292e452d1df3451bcdfa0a20b6
-Section: Emulators
-Homepage: www.kromlte.com
-Description: RetroArch102 is the official reference front-end for the Libretro API. This is the oldest stable version available. Most cores need to be added manually.
-Author: LibRetro <libretro@gmail.com>
-Icon: http://buildbot.libretro.com/repo/cydia/retroarch-icon.png
-Name: RetroArch102
-Sponsor: LibRetro
-
-Package: com.kromite.retroarch130
-Version: 1.3.0
-Architecture: iphoneos-arm
-Maintainer: Kromite <info@kromlte.com>
-Depends: firmware (>= 8.3)
-Filename: ./debs//com.kromite.retroarch130_1.3.0_iphoneos-arm.deb
-Size: 64349950
-MD5sum: 85d42fb3934232f618e8bd71baed405a
-SHA1: 37d8c87aa29fd1391a8df001d68a6577c52aa6de
-SHA256: a9d8e87ef7c493c3bade131164e682496f60c8c9d8573dd8e527174a07e9fd6b
-Section: Emulators
-Homepage: www.kromlte.com
-Description: RetroArch130 is the official reference front-end for the Libretro API. This is an older version, should be more compatible with older devices.
-Author: LibRetro <libretro@gmail.com>
-Icon: http://buildbot.libretro.com/repo/cydia/retroarch-icon.png
-Name: RetroArch130
-Sponsor: LibRetro
-
 Package: com.kromite.retroarch164
 Version: 1.6.4
 Architecture: iphoneos-arm
 Maintainer: Kromite <info@kromlte.com>
 Depends: firmware (>= 8.3)
-Filename: ./debs//com.kromite.retroarch164_1.6.4_iphoneos-arm.deb
-Size: 985786
-MD5sum: 879b6c344be5a340250def170c2a30f8
-SHA1: 9e6415588cee9918ce69429a9bc60177b3889c2b
-SHA256: 591f47b3d942be4f2fe0627ff53ca9a2bb24851a78c144984cd4a3de88c70b56
+Filename: ./debs/com.kromite.retroarch164_1.6.4_iphoneos-arm.deb
+Size: 986170
+MD5sum: c67845f0e6fdf1d12e0f898e5762c19d
+SHA1: 62439f4df06249fb73ce4ccce311b491c76ae30d
+SHA256: 530d9e7265cc891f702bac60e4b3cb3f787d7cb466fceb33473235e0a38a6b02
 Section: Emulators
 Homepage: www.kromlte.com
 Description: RetroArch164 is the official reference front-end for the Libretro API.
