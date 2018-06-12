@@ -9,6 +9,8 @@
 .center {
 	text-align: center;
 	vertical-align: middle;
+	color: black;
+
 }
 /* Footer */
 footer a {
@@ -35,7 +37,7 @@ img.circle {
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 body {
   background-image: url("https://www.kromlte.com/images/backgrounds/background.jpg");
