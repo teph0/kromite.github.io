@@ -6,6 +6,10 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /* Begin Kromite's Code */
+.center {
+	text-align: center;
+	vertical-align: middle;
+}
 /* Footer */
 footer a {
 	color: black;
