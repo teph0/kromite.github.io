@@ -6,6 +6,14 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /* Begin Kromite's Code */
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
 /* Footer */
 footer a {
 	color: black;
@@ -16,11 +24,6 @@ footer a {
 div.breaker {
 	clear: both;
 	padding-top: 25px;
-}
-div.center-block-circle {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 }
 /* Images */
 img.circle {
