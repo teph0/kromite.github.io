@@ -6,11 +6,6 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /* Begin Kromite's Code */
-.nav.navbar-nav {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
 /* Footer */
 footer a {
 	color: black;
@@ -3671,11 +3666,6 @@ tbody.collapse.in {
     right: auto;
     left: 0;
   }
-}
-@media (min-width: 768px) { /* Kromite */
-	.navbar-nav {
-		float: none;
-	}
 }
 .btn-group,
 .btn-group-vertical {
