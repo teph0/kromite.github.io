@@ -2,31 +2,7 @@
 	<changes>
 		<version>1.6.4</version>
 		<change>
-      ANDROID: Fire Stick & Fire TV remote overrides gamepad port 0 on button press and viceversa like SHIELD devices
-      ANDROID: Provide default save / system / state / screenshot locations
-      AUDIO: Audio mixer supports MOD/S3M/XM file types now!
-      INPUT: input swap override flag (for remotes) is cleared correctly
-      INPUT: allow specifying libretro device in remap files
-      INPUT: allow specifying analog dpad mode in remap files
-      INPUT: allow saving libretro device to remap files
-      INPUT: allow saving analog dpad mode to remap files
-      INPUT: allow removing core and game remap files from the menu
-      COMMON: Cores can now request to set a ‘shared context’. You no longer need to explicitly enable ‘Shared Hardware Context’ for Citra/OpenLara/Dolphin.
-      COMMON: Add ‘Delete Core’ option to Core Information menu.
-      COMMON: Allow Max Timing Skew to be set to 0.
-      COMMON: Change the “content dir” behavior so it works on either a flag or an empty directory setting, now platform drivers can provide defaults for save / system / state / screenshot dirs and still allow the content dir functionality, these settings are under settings / saving and flagged as advanced
-      GUI: You can turn on/off ‘Horizontal Animation’ now for the XMB menu. Turning animations off can result in a performance boost.
-      GUI: Fix sublabel word-wrapping in XMB where multi-byte languages were cut off too soon
-      LOCALIZATION: Update Dutch translation
-      LOCALIZATION: Update Traditional Chinese translation
-      LOCALIZATION: Update Italian translation
-      LOCALIZATION: Update Russian translation
-      WINDOWS: Provide default save / system / state / screenshot locations
-      LOBBIES: Show what country the host is in
-      MENU: Enable OSD text rendering for gdi and libcaca drivers
-      WINDOWS 98/ME/2K: Set default directory for MSVC 2005 RetroArch version.
-      WII: Better V-Sync handling, backported from SuperrSonic.
-      WIIU: Exception handler rewritten.
-    </change>
+      		Updated to the latest firmware.
+    		</change>
 	</changes>
 </changelog>
