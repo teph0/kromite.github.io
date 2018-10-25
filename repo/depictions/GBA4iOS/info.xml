@@ -1,0 +1,31 @@
+<package>
+	<id>com.midnightchips.homehijack</id>
+	<name>RetroArch164</name>
+	<version>1.6.4</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<packagenone</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Who in the world actually uses Siri? Now you can actually make use of a long press of the home button. Go open up Alexa or Google Now, or something not even assistant related at all. If you want to use Siri, just toggle the selected application off in settings.</description>
+	</descriptionlist>
+	<changelog>
+		<change>First Release</change>
+	</changelog>
+	<screenshot>
+		<description>Libretro</description>
+		<image>libretro.png</image>
+	</screenshot>
+</screenshots>
+	<links>
+		<link>
+			<name>Kromite's Repository</name>
+			<url>https://www.kromlte.com/repo</url>
+			<iconclass></iconclass>
+		</link>
+	</links>
+</package>
